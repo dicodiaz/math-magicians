@@ -7,7 +7,7 @@
 - Make simple calculations.
 - Read a random math-related quote.
 
-This application is built using React.
+This application is built using React and Bootstrap.
 
 ## Mobile
 
