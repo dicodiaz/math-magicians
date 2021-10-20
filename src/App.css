@@ -14,3 +14,7 @@
   border-color: #d1d1d1 !important;
   border-style: outset !important;
 }
+
+.border-custom1:active {
+  border-style: inset !important;
+}
