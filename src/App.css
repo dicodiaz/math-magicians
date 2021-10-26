@@ -18,3 +18,27 @@
 .border-custom1:active {
   border-style: inset !important;
 }
+
+.nav-item a {
+  color: white;
+  padding: 0 10px;
+}
+
+.v-line {
+  width: 2px;
+  background-color: white;
+  margin: 0 10px;
+}
+
+@media screen and (max-width: 768px) {
+  #navbarNav {
+    height: 100vh;
+    text-align: center;
+    padding: 50px 0;
+  }
+
+  #navbarNav li {
+    font-size: 30px;
+    padding: 20px 0;
+  }
+}
