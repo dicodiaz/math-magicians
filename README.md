@@ -23,6 +23,10 @@ This application is built using React and Bootstrap.
 - VSCode
 - Gitflow & GitHub
 
+## Live Demo
+
+[Live Demo Link](https://dicodiaz.me/math-magicians/)
+
 ## Getting Started
 
 To get this project up and running, follow these simple steps:
