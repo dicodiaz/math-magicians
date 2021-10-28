@@ -7,7 +7,6 @@ const Calculator = () => {
   const { total, next, operation } = obj;
 
   const handleClick = (text) => {
-    console.log('obj: ', obj, 'text: ', text, 'result: ', calculate(obj, text));
     setObj(calculate(obj, text));
   };
 
