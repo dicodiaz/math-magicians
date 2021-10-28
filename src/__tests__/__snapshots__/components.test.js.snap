@@ -88,6 +88,7 @@ Object {
         >
           <div
             class="bg-custom1 text-white text-end col-12 py-4 fs-5"
+            data-testid="screen"
           >
             0
           </div>
@@ -218,6 +219,7 @@ Object {
       >
         <div
           class="bg-custom1 text-white text-end col-12 py-4 fs-5"
+          data-testid="screen"
         >
           0
         </div>
@@ -404,7 +406,7 @@ Object {
           class="row text-end text-white"
         >
           <p>
-            12:31:51 p. m.
+            2:37:51 p. m.
           </p>
         </div>
       </div>
@@ -418,7 +420,7 @@ Object {
         class="row text-end text-white"
       >
         <p>
-          12:31:51 p. m.
+          2:37:51 p. m.
         </p>
       </div>
     </div>

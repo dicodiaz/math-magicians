@@ -27,7 +27,7 @@ export default class Clock extends React.Component {
     return (
       <div className="col-md-9">
         <div className="row text-end text-white">
-          <p>{date.toLocaleTimeString()}</p>
+          <p data-testid="time">{date.toLocaleTimeString()}</p>
         </div>
       </div>
     );
