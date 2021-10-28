@@ -1,268 +1,699 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`testing components testing Button.js 1`] = `
-<button
-  className="bg-custom2 py-4 border border-custom1 fs-5"
-  onClick={[Function]}
-  type="button"
->
-  AC
-</button>
-`;
-
-exports[`testing components testing Calculator.js 1`] = `
-<div
-  className="col-md-9"
->
-  <div
-    className="row mx-0 row-cols-4 text-center"
-  >
-    <div
-      className="bg-custom1 text-white text-end col-12 py-4 fs-5"
-    >
-      0
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <button
+        class="bg-custom2 py-4 border border-custom1 fs-5"
+        type="button"
+      >
+        AC
+      </button>
     </div>
+  </body>,
+  "container": <div>
     <button
-      className="bg-custom2 py-4 border border-custom1 fs-5"
-      onClick={[Function]}
+      class="bg-custom2 py-4 border border-custom1 fs-5"
       type="button"
     >
       AC
     </button>
-    <button
-      className="bg-custom2 py-4 border border-custom1 fs-5"
-      onClick={[Function]}
-      type="button"
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`testing components testing Calculator.js 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="col-md-9"
+      >
+        <div
+          class="row mx-0 row-cols-4 text-center"
+        >
+          <div
+            class="bg-custom1 text-white text-end col-12 py-4 fs-5"
+          >
+            0
+          </div>
+          <button
+            class="bg-custom2 py-4 border border-custom1 fs-5"
+            type="button"
+          >
+            AC
+          </button>
+          <button
+            class="bg-custom2 py-4 border border-custom1 fs-5"
+            type="button"
+          >
+            +/-
+          </button>
+          <button
+            class="bg-custom2 py-4 border border-custom1 fs-5"
+            type="button"
+          >
+            %
+          </button>
+          <button
+            class="bg-custom3 py-4 border border-custom1 fs-5"
+            type="button"
+          >
+            ÷
+          </button>
+          <button
+            class="bg-custom2 py-4 border border-custom1 fs-5"
+            type="button"
+          >
+            7
+          </button>
+          <button
+            class="bg-custom2 py-4 border border-custom1 fs-5"
+            type="button"
+          >
+            8
+          </button>
+          <button
+            class="bg-custom2 py-4 border border-custom1 fs-5"
+            type="button"
+          >
+            9
+          </button>
+          <button
+            class="bg-custom3 py-4 border border-custom1 fs-5"
+            type="button"
+          >
+            ×
+          </button>
+          <button
+            class="bg-custom2 py-4 border border-custom1 fs-5"
+            type="button"
+          >
+            4
+          </button>
+          <button
+            class="bg-custom2 py-4 border border-custom1 fs-5"
+            type="button"
+          >
+            5
+          </button>
+          <button
+            class="bg-custom2 py-4 border border-custom1 fs-5"
+            type="button"
+          >
+            6
+          </button>
+          <button
+            class="bg-custom3 py-4 border border-custom1 fs-5"
+            type="button"
+          >
+            −
+          </button>
+          <button
+            class="bg-custom2 py-4 border border-custom1 fs-5"
+            type="button"
+          >
+            1
+          </button>
+          <button
+            class="bg-custom2 py-4 border border-custom1 fs-5"
+            type="button"
+          >
+            2
+          </button>
+          <button
+            class="bg-custom2 py-4 border border-custom1 fs-5"
+            type="button"
+          >
+            3
+          </button>
+          <button
+            class="bg-custom3 py-4 border border-custom1 fs-5"
+            type="button"
+          >
+            +
+          </button>
+          <button
+            class="bg-custom2 col-6 py-4 border border-custom1 fs-5"
+            type="button"
+          >
+            0
+          </button>
+          <button
+            class="bg-custom2 py-4 border border-custom1 fs-5"
+            type="button"
+          >
+            .
+          </button>
+          <button
+            class="bg-custom3 py-4 border border-custom1 fs-5"
+            type="button"
+          >
+            =
+          </button>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="col-md-9"
     >
-      +/-
-    </button>
-    <button
-      className="bg-custom2 py-4 border border-custom1 fs-5"
-      onClick={[Function]}
-      type="button"
-    >
-      %
-    </button>
-    <button
-      className="bg-custom3 py-4 border border-custom1 fs-5"
-      onClick={[Function]}
-      type="button"
-    >
-      ÷
-    </button>
-    <button
-      className="bg-custom2 py-4 border border-custom1 fs-5"
-      onClick={[Function]}
-      type="button"
-    >
-      7
-    </button>
-    <button
-      className="bg-custom2 py-4 border border-custom1 fs-5"
-      onClick={[Function]}
-      type="button"
-    >
-      8
-    </button>
-    <button
-      className="bg-custom2 py-4 border border-custom1 fs-5"
-      onClick={[Function]}
-      type="button"
-    >
-      9
-    </button>
-    <button
-      className="bg-custom3 py-4 border border-custom1 fs-5"
-      onClick={[Function]}
-      type="button"
-    >
-      ×
-    </button>
-    <button
-      className="bg-custom2 py-4 border border-custom1 fs-5"
-      onClick={[Function]}
-      type="button"
-    >
-      4
-    </button>
-    <button
-      className="bg-custom2 py-4 border border-custom1 fs-5"
-      onClick={[Function]}
-      type="button"
-    >
-      5
-    </button>
-    <button
-      className="bg-custom2 py-4 border border-custom1 fs-5"
-      onClick={[Function]}
-      type="button"
-    >
-      6
-    </button>
-    <button
-      className="bg-custom3 py-4 border border-custom1 fs-5"
-      onClick={[Function]}
-      type="button"
-    >
-      −
-    </button>
-    <button
-      className="bg-custom2 py-4 border border-custom1 fs-5"
-      onClick={[Function]}
-      type="button"
-    >
-      1
-    </button>
-    <button
-      className="bg-custom2 py-4 border border-custom1 fs-5"
-      onClick={[Function]}
-      type="button"
-    >
-      2
-    </button>
-    <button
-      className="bg-custom2 py-4 border border-custom1 fs-5"
-      onClick={[Function]}
-      type="button"
-    >
-      3
-    </button>
-    <button
-      className="bg-custom3 py-4 border border-custom1 fs-5"
-      onClick={[Function]}
-      type="button"
-    >
-      +
-    </button>
-    <button
-      className="bg-custom2 col-6 py-4 border border-custom1 fs-5"
-      onClick={[Function]}
-      type="button"
-    >
-      0
-    </button>
-    <button
-      className="bg-custom2 py-4 border border-custom1 fs-5"
-      onClick={[Function]}
-      type="button"
-    >
-      .
-    </button>
-    <button
-      className="bg-custom3 py-4 border border-custom1 fs-5"
-      onClick={[Function]}
-      type="button"
-    >
-      =
-    </button>
-  </div>
-</div>
+      <div
+        class="row mx-0 row-cols-4 text-center"
+      >
+        <div
+          class="bg-custom1 text-white text-end col-12 py-4 fs-5"
+        >
+          0
+        </div>
+        <button
+          class="bg-custom2 py-4 border border-custom1 fs-5"
+          type="button"
+        >
+          AC
+        </button>
+        <button
+          class="bg-custom2 py-4 border border-custom1 fs-5"
+          type="button"
+        >
+          +/-
+        </button>
+        <button
+          class="bg-custom2 py-4 border border-custom1 fs-5"
+          type="button"
+        >
+          %
+        </button>
+        <button
+          class="bg-custom3 py-4 border border-custom1 fs-5"
+          type="button"
+        >
+          ÷
+        </button>
+        <button
+          class="bg-custom2 py-4 border border-custom1 fs-5"
+          type="button"
+        >
+          7
+        </button>
+        <button
+          class="bg-custom2 py-4 border border-custom1 fs-5"
+          type="button"
+        >
+          8
+        </button>
+        <button
+          class="bg-custom2 py-4 border border-custom1 fs-5"
+          type="button"
+        >
+          9
+        </button>
+        <button
+          class="bg-custom3 py-4 border border-custom1 fs-5"
+          type="button"
+        >
+          ×
+        </button>
+        <button
+          class="bg-custom2 py-4 border border-custom1 fs-5"
+          type="button"
+        >
+          4
+        </button>
+        <button
+          class="bg-custom2 py-4 border border-custom1 fs-5"
+          type="button"
+        >
+          5
+        </button>
+        <button
+          class="bg-custom2 py-4 border border-custom1 fs-5"
+          type="button"
+        >
+          6
+        </button>
+        <button
+          class="bg-custom3 py-4 border border-custom1 fs-5"
+          type="button"
+        >
+          −
+        </button>
+        <button
+          class="bg-custom2 py-4 border border-custom1 fs-5"
+          type="button"
+        >
+          1
+        </button>
+        <button
+          class="bg-custom2 py-4 border border-custom1 fs-5"
+          type="button"
+        >
+          2
+        </button>
+        <button
+          class="bg-custom2 py-4 border border-custom1 fs-5"
+          type="button"
+        >
+          3
+        </button>
+        <button
+          class="bg-custom3 py-4 border border-custom1 fs-5"
+          type="button"
+        >
+          +
+        </button>
+        <button
+          class="bg-custom2 col-6 py-4 border border-custom1 fs-5"
+          type="button"
+        >
+          0
+        </button>
+        <button
+          class="bg-custom2 py-4 border border-custom1 fs-5"
+          type="button"
+        >
+          .
+        </button>
+        <button
+          class="bg-custom3 py-4 border border-custom1 fs-5"
+          type="button"
+        >
+          =
+        </button>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
 `;
 
 exports[`testing components testing Clock.js 1`] = `
-<div
-  className="col-md-9"
->
-  <div
-    className="row text-end text-white"
-  >
-    <p>
-      12:22:53 PM
-    </p>
-  </div>
-</div>
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="col-md-9"
+      >
+        <div
+          class="row text-end text-white"
+        >
+          <p>
+            12:31:51 p. m.
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="col-md-9"
+    >
+      <div
+        class="row text-end text-white"
+      >
+        <p>
+          12:31:51 p. m.
+        </p>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
 `;
 
 exports[`testing components testing Header.js 1`] = `
-Array [
-  " ",
-  <nav
-    className="navbar navbar-expand-md navbar-light bg-secondary fixed-top"
-  >
-    <div
-      className="container-fluid"
-    >
-      <span
-        className="navbar-brand text-white"
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <nav
+        class="navbar navbar-expand-md navbar-light bg-secondary fixed-top"
       >
-        Math Magicians
-      </span>
-      <button
-        aria-controls="navbarNav"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-        className="navbar-toggler"
-        data-bs-target="#navbarNav"
-        data-bs-toggle="collapse"
-        type="button"
-      >
-        <svg
-          fill="currentColor"
-          height="1em"
-          stroke="currentColor"
-          strokeWidth="0"
-          style={
-            Object {
-              "color": "white",
-              "fontSize": "25px",
-            }
-          }
-          viewBox="0 0 1024 1024"
-          width="1em"
-          xmlns="http://www.w3.org/2000/svg"
+        <div
+          class="container-fluid"
         >
-          <path
-            d="M904 160H120c-4.4 0-8 3.6-8 8v64c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-64c0-4.4-3.6-8-8-8zm0 624H120c-4.4 0-8 3.6-8 8v64c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-64c0-4.4-3.6-8-8-8zm0-312H120c-4.4 0-8 3.6-8 8v64c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-64c0-4.4-3.6-8-8-8z"
-          />
-        </svg>
-      </button>
-      <div
-        className="collapse navbar-collapse"
-        id="navbarNav"
-      >
-        <ul
-          className="navbar-nav ms-auto"
-        >
-          <li
-            className="nav-item"
+          <span
+            class="navbar-brand text-white"
           >
-            <a
-              href="/"
-              onClick={[Function]}
-            >
-              Home
-            </a>
-          </li>
-          <li
-            className="v-line d-none d-md-block"
-          />
-          <li
-            className="nav-item"
+            Math Magicians
+          </span>
+          <button
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+            class="navbar-toggler"
+            data-bs-target="#navbarNav"
+            data-bs-toggle="collapse"
+            type="button"
           >
-            <a
-              href="/calculator"
-              onClick={[Function]}
+            <svg
+              fill="currentColor"
+              height="1em"
+              stroke="currentColor"
+              stroke-width="0"
+              style="color: white; font-size: 25px;"
+              viewBox="0 0 1024 1024"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
             >
-              Calculator
-            </a>
-          </li>
-          <li
-            className="v-line d-none d-md-block"
-          />
-          <li
-            className="nav-item"
+              <path
+                d="M904 160H120c-4.4 0-8 3.6-8 8v64c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-64c0-4.4-3.6-8-8-8zm0 624H120c-4.4 0-8 3.6-8 8v64c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-64c0-4.4-3.6-8-8-8zm0-312H120c-4.4 0-8 3.6-8 8v64c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-64c0-4.4-3.6-8-8-8z"
+              />
+            </svg>
+          </button>
+          <div
+            class="collapse navbar-collapse"
+            id="navbarNav"
           >
-            <a
-              href="/quote"
-              onClick={[Function]}
+            <ul
+              class="navbar-nav ms-auto"
             >
-              Quote
-            </a>
-          </li>
-        </ul>
-      </div>
+              <li
+                class="nav-item"
+              >
+                <a
+                  href="/"
+                >
+                  Home
+                </a>
+              </li>
+              <li
+                class="v-line d-none d-md-block"
+              />
+              <li
+                class="nav-item"
+              >
+                <a
+                  href="/calculator"
+                >
+                  Calculator
+                </a>
+              </li>
+              <li
+                class="v-line d-none d-md-block"
+              />
+              <li
+                class="nav-item"
+              >
+                <a
+                  href="/quote"
+                >
+                  Quote
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
     </div>
-  </nav>,
-  " ",
-]
+  </body>,
+  "container": <div>
+    <nav
+      class="navbar navbar-expand-md navbar-light bg-secondary fixed-top"
+    >
+      <div
+        class="container-fluid"
+      >
+        <span
+          class="navbar-brand text-white"
+        >
+          Math Magicians
+        </span>
+        <button
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+          class="navbar-toggler"
+          data-bs-target="#navbarNav"
+          data-bs-toggle="collapse"
+          type="button"
+        >
+          <svg
+            fill="currentColor"
+            height="1em"
+            stroke="currentColor"
+            stroke-width="0"
+            style="color: white; font-size: 25px;"
+            viewBox="0 0 1024 1024"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M904 160H120c-4.4 0-8 3.6-8 8v64c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-64c0-4.4-3.6-8-8-8zm0 624H120c-4.4 0-8 3.6-8 8v64c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-64c0-4.4-3.6-8-8-8zm0-312H120c-4.4 0-8 3.6-8 8v64c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-64c0-4.4-3.6-8-8-8z"
+            />
+          </svg>
+        </button>
+        <div
+          class="collapse navbar-collapse"
+          id="navbarNav"
+        >
+          <ul
+            class="navbar-nav ms-auto"
+          >
+            <li
+              class="nav-item"
+            >
+              <a
+                href="/"
+              >
+                Home
+              </a>
+            </li>
+            <li
+              class="v-line d-none d-md-block"
+            />
+            <li
+              class="nav-item"
+            >
+              <a
+                href="/calculator"
+              >
+                Calculator
+              </a>
+            </li>
+            <li
+              class="v-line d-none d-md-block"
+            />
+            <li
+              class="nav-item"
+            >
+              <a
+                href="/quote"
+              >
+                Quote
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
 `;
