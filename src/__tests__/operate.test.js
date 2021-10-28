@@ -21,7 +21,7 @@ describe('testing operate logic', () => {
   });
 
   test('testing divide logic', () => {
-    expect(operate(numberOne, 0, '÷')).toBe('Can\'t divide by 0.');
+    expect(operate(numberOne, 0, '÷')).toBe("Can't divide by 0.");
   });
 
   test('testing modulo logic', () => {
@@ -30,6 +30,8 @@ describe('testing operate logic', () => {
 
   test('testing fail logic', () => {
     const operation = '#';
-    expect(() => (operate(numberOne, numberTwo, operation))).toThrow(`Unknown operation '${operation}'`);
+    expect(() => operate(numberOne, numberTwo, operation)).toThrow(
+      `Unknown operation '${operation}'`,
+    );
   });
 });

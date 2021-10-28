@@ -1,0 +1,160 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`testing components testing Button.js 1`] = `
+<button
+  className="bg-custom2 py-4 border border-custom1 fs-5"
+  onClick={[Function]}
+  type="button"
+>
+  AC
+</button>
+`;
+
+exports[`testing components testing Calculator.js 1`] = `
+<div
+  className="col-md-9"
+>
+  <div
+    className="row mx-0 row-cols-4 text-center"
+  >
+    <div
+      className="bg-custom1 text-white text-end col-12 py-4 fs-5"
+    >
+      0
+    </div>
+    <button
+      className="bg-custom2 py-4 border border-custom1 fs-5"
+      onClick={[Function]}
+      type="button"
+    >
+      AC
+    </button>
+    <button
+      className="bg-custom2 py-4 border border-custom1 fs-5"
+      onClick={[Function]}
+      type="button"
+    >
+      +/-
+    </button>
+    <button
+      className="bg-custom2 py-4 border border-custom1 fs-5"
+      onClick={[Function]}
+      type="button"
+    >
+      %
+    </button>
+    <button
+      className="bg-custom3 py-4 border border-custom1 fs-5"
+      onClick={[Function]}
+      type="button"
+    >
+      ÷
+    </button>
+    <button
+      className="bg-custom2 py-4 border border-custom1 fs-5"
+      onClick={[Function]}
+      type="button"
+    >
+      7
+    </button>
+    <button
+      className="bg-custom2 py-4 border border-custom1 fs-5"
+      onClick={[Function]}
+      type="button"
+    >
+      8
+    </button>
+    <button
+      className="bg-custom2 py-4 border border-custom1 fs-5"
+      onClick={[Function]}
+      type="button"
+    >
+      9
+    </button>
+    <button
+      className="bg-custom3 py-4 border border-custom1 fs-5"
+      onClick={[Function]}
+      type="button"
+    >
+      ×
+    </button>
+    <button
+      className="bg-custom2 py-4 border border-custom1 fs-5"
+      onClick={[Function]}
+      type="button"
+    >
+      4
+    </button>
+    <button
+      className="bg-custom2 py-4 border border-custom1 fs-5"
+      onClick={[Function]}
+      type="button"
+    >
+      5
+    </button>
+    <button
+      className="bg-custom2 py-4 border border-custom1 fs-5"
+      onClick={[Function]}
+      type="button"
+    >
+      6
+    </button>
+    <button
+      className="bg-custom3 py-4 border border-custom1 fs-5"
+      onClick={[Function]}
+      type="button"
+    >
+      −
+    </button>
+    <button
+      className="bg-custom2 py-4 border border-custom1 fs-5"
+      onClick={[Function]}
+      type="button"
+    >
+      1
+    </button>
+    <button
+      className="bg-custom2 py-4 border border-custom1 fs-5"
+      onClick={[Function]}
+      type="button"
+    >
+      2
+    </button>
+    <button
+      className="bg-custom2 py-4 border border-custom1 fs-5"
+      onClick={[Function]}
+      type="button"
+    >
+      3
+    </button>
+    <button
+      className="bg-custom3 py-4 border border-custom1 fs-5"
+      onClick={[Function]}
+      type="button"
+    >
+      +
+    </button>
+    <button
+      className="bg-custom2 col-6 py-4 border border-custom1 fs-5"
+      onClick={[Function]}
+      type="button"
+    >
+      0
+    </button>
+    <button
+      className="bg-custom2 py-4 border border-custom1 fs-5"
+      onClick={[Function]}
+      type="button"
+    >
+      .
+    </button>
+    <button
+      className="bg-custom3 py-4 border border-custom1 fs-5"
+      onClick={[Function]}
+      type="button"
+    >
+      =
+    </button>
+  </div>
+</div>
+`;
