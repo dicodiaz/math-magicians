@@ -158,3 +158,111 @@ exports[`testing components testing Calculator.js 1`] = `
   </div>
 </div>
 `;
+
+exports[`testing components testing Clock.js 1`] = `
+<div
+  className="col-md-9"
+>
+  <div
+    className="row text-end text-white"
+  >
+    <p>
+      12:22:53 PM
+    </p>
+  </div>
+</div>
+`;
+
+exports[`testing components testing Header.js 1`] = `
+Array [
+  " ",
+  <nav
+    className="navbar navbar-expand-md navbar-light bg-secondary fixed-top"
+  >
+    <div
+      className="container-fluid"
+    >
+      <span
+        className="navbar-brand text-white"
+      >
+        Math Magicians
+      </span>
+      <button
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+        className="navbar-toggler"
+        data-bs-target="#navbarNav"
+        data-bs-toggle="collapse"
+        type="button"
+      >
+        <svg
+          fill="currentColor"
+          height="1em"
+          stroke="currentColor"
+          strokeWidth="0"
+          style={
+            Object {
+              "color": "white",
+              "fontSize": "25px",
+            }
+          }
+          viewBox="0 0 1024 1024"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M904 160H120c-4.4 0-8 3.6-8 8v64c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-64c0-4.4-3.6-8-8-8zm0 624H120c-4.4 0-8 3.6-8 8v64c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-64c0-4.4-3.6-8-8-8zm0-312H120c-4.4 0-8 3.6-8 8v64c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-64c0-4.4-3.6-8-8-8z"
+          />
+        </svg>
+      </button>
+      <div
+        className="collapse navbar-collapse"
+        id="navbarNav"
+      >
+        <ul
+          className="navbar-nav ms-auto"
+        >
+          <li
+            className="nav-item"
+          >
+            <a
+              href="/"
+              onClick={[Function]}
+            >
+              Home
+            </a>
+          </li>
+          <li
+            className="v-line d-none d-md-block"
+          />
+          <li
+            className="nav-item"
+          >
+            <a
+              href="/calculator"
+              onClick={[Function]}
+            >
+              Calculator
+            </a>
+          </li>
+          <li
+            className="v-line d-none d-md-block"
+          />
+          <li
+            className="nav-item"
+          >
+            <a
+              href="/quote"
+              onClick={[Function]}
+            >
+              Quote
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>,
+  " ",
+]
+`;
