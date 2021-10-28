@@ -1,7 +1,7 @@
 import calculate from '../logic/calculate';
 
 describe('testing calculate logic', () => {
-  let obj = {
+  const obj = {
     total: '0',
     next: null,
     operation: null,
