@@ -25,7 +25,9 @@ This application is built using React and Bootstrap.
 
 ## Live Demo
 
-[Live Demo Link](https://dicodiaz.me/math-magicians/)
+- GitHub Pages: [Live Demo Link](https://dicodiaz.me/math-magicians/)
+- Heroku: [Live Demo Link](https://dicodiaz-math-magicians.herokuapp.com)
+- Netlify: [Live Demo Link](https://61805e8fa842d91e645189db--clever-bartik-92b10d.netlify.app)
 
 ## Getting Started
 
