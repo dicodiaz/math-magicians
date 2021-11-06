@@ -53,7 +53,7 @@ To get this project up and running, follow these simple steps:
 
 - GitHub: [@dicodiaz](https://github.com/dicodiaz)
 - Twitter: [@DicoDiaz1](https://twitter.com/DicoDiaz1)
-- LinkedIn: [Dico Diaz Dussan](https://www.linkedin.com/in/dico-diaz-dussan-476106a6/)
+- LinkedIn: [Dico Diaz Dussan](https://www.linkedin.com/in/dico-diaz-dussan)
 
 ## 🤝 Contributing
 
