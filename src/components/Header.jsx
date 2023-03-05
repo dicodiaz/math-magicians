@@ -23,7 +23,7 @@ const Header = () => (
           </li>
           <li className="v-line d-none d-md-block" />
           <li className="nav-item">
-            <Link to="/calculator">Calculator</Link>
+            <Link to="/calculate">Calculator</Link>
           </li>
           <li className="v-line d-none d-md-block" />
           <li className="nav-item">

@@ -25,9 +25,7 @@ This application is built using React and Bootstrap.
 
 ## Live Demo
 
-- GitHub Pages: [Live Demo Link](https://dicodiaz.me/math-magicians/)
-- Heroku: [Live Demo Link](https://dicodiaz-math-magicians.herokuapp.com)
-- Netlify: [Live Demo Link](https://61805e8fa842d91e645189db--clever-bartik-92b10d.netlify.app)
+[Live Demo Link](https://math-magicians.dicodiaz.com.co)
 
 ## Getting Started
 
@@ -35,8 +33,8 @@ To get this project up and running, follow these simple steps:
 
 1. Clone the repository into your machine.
 2. Open the project's folder with your preferred source-code editor.
-3. Run `npm install`.
-4. Run `npm start`.
+3. Run `pnpm install`.
+4. Run `pnpm dev`.
 
 ### Prerequisites
 
@@ -53,7 +51,7 @@ To get this project up and running, follow these simple steps:
 
 - GitHub: [@dicodiaz](https://github.com/dicodiaz)
 - LinkedIn: [Dico Diaz Dussan](https://www.linkedin.com/in/dico-diaz-dussan/)
-- Portfolio: [dicodiaz.com.co](https://dicodiaz.com.co)
+- Portfolio: [dicodiaz.com.co](https://portfolio.dicodiaz.com.co)
 
 ## 🤝 Contributing
 
