@@ -1,16 +1,10 @@
 import PropTypes from 'prop-types';
-import { useEffect, useRef, useState } from 'react';
+import { useEffect, useState } from 'react';
 
 const Clock = ({ updateEveryNSeconds }) => {
   const [date, setDate] = useState(new Date());
-  const mounted = useRef(false);
 
   useEffect(() => {
-    if (!mounted.current) {
-      return () => {
-        mounted.current = true;
-      };
-    }
     const timerID = setInterval(() => setDate(new Date()), 1000 * updateEveryNSeconds);
     return () => clearInterval(timerID);
   }, [updateEveryNSeconds]);
