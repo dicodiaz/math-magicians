@@ -25,7 +25,7 @@ This application is built using React and Bootstrap.
 
 ## Live Demo
 
-[Live Demo Link](https://dicodiaz.me/math-magicians/)
+[Live Demo Link](https://math-magicians.dicodiaz.com.co)
 
 ## Getting Started
 
@@ -33,8 +33,8 @@ To get this project up and running, follow these simple steps:
 
 1. Clone the repository into your machine.
 2. Open the project's folder with your preferred source-code editor.
-3. Run `npm install`.
-4. Run `npm start`.
+3. Run `pnpm install`.
+4. Run `pnpm dev`.
 
 ### Prerequisites
 
@@ -50,8 +50,8 @@ To get this project up and running, follow these simple steps:
 👤 **Dico Diaz Dussan**
 
 - GitHub: [@dicodiaz](https://github.com/dicodiaz)
-- Twitter: [@DicoDiaz1](https://twitter.com/DicoDiaz1)
-- LinkedIn: [Dico Diaz Dussan](https://www.linkedin.com/in/dico-diaz-dussan-476106a6/)
+- LinkedIn: [Dico Diaz Dussan](https://www.linkedin.com/in/dico-diaz-dussan/)
+- Portfolio: [dicodiaz.com.co](https://portfolio.dicodiaz.com.co)
 
 ## 🤝 Contributing
 
