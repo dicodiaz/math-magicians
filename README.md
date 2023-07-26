@@ -2,24 +2,25 @@
 
 # Math Magicians
 
-> "Math magicians" is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to:
+**Math magicians** is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to:
 
 - Make simple calculations.
 - Read a random math-related quote.
 
-This application is built using React and Bootstrap.
+This application is built with React and Bootstrap.
 
 ## Mobile
 
-![screenshot](./app_screenshot.png)
+![screenshot](./app_screenshot_mobile.png)
 
 ## Desktop
 
-![screenshot](./app_screenshot-2.png)
+![screenshot](./app_screenshot_desktop.png)
 
 ## Built With
 
 - React
+- Bootstrap
 - VSCode
 - Gitflow & GitHub
 
