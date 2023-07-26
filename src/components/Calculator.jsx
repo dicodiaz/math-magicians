@@ -12,9 +12,9 @@ const Calculator = () => {
   };
 
   return (
-    <div className="col-md-9">
-      <div className="row mx-0 row-cols-4 text-center">
-        <div data-testid="screen" className="bg-custom1 text-white text-end col-12 py-4 fs-5">
+    <div className="col-md-9 pt-5">
+      <div className="row mx-0 g-0 row-cols-4 text-center">
+        <div data-testid="screen" className="bg-custom1 text-white text-end col-12 p-4 fs-5">
           {total}
           {operation}
           {next}

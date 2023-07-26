@@ -8,9 +8,9 @@ import Quote from './pages/Quote';
 const App = () => (
   <>
     <Header />
-    <main className="bg-dark min-vh-100 d-flex flex-column justify-content-center pt-5">
+    <main className="bg-dark min-vh-100 d-flex align-items-center">
       <div className="container-md">
-        <div className="row mx-0 justify-content-center">
+        <div className="row mx-0 g-0 justify-content-center">
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="calculate" element={<Calculate />} />
