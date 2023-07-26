@@ -20,36 +20,36 @@ describe('Clock component', () => {
   it('should update the time every second with prop: updateEveryNSeconds = 1', () => {
     const tree = render(<Clock updateEveryNSeconds={1} />);
     const timeElement = tree.getByTestId('time');
-    expect(timeElement).toHaveTextContent('12:00:00 a. m.');
+    expect(timeElement).toHaveTextContent('12:00:00 AM');
     act(() => {
       jest.advanceTimersByTime(1000);
     });
-    expect(timeElement).toHaveTextContent('12:00:01 a. m.');
+    expect(timeElement).toHaveTextContent('12:00:01 AM');
     act(() => {
       jest.advanceTimersByTime(1000);
     });
-    expect(timeElement).toHaveTextContent('12:00:02 a. m.');
+    expect(timeElement).toHaveTextContent('12:00:02 AM');
   });
 
   it('should update the time every 2 seconds with prop: updateEveryNSeconds = 2', () => {
     const tree = render(<Clock updateEveryNSeconds={2} />);
     const timeElement = tree.getByTestId('time');
-    expect(timeElement).toHaveTextContent('12:00:00 a. m.');
+    expect(timeElement).toHaveTextContent('12:00:00 AM');
     act(() => {
       jest.advanceTimersByTime(1000);
     });
-    expect(timeElement).toHaveTextContent('12:00:00 a. m.');
+    expect(timeElement).toHaveTextContent('12:00:00 AM');
     act(() => {
       jest.advanceTimersByTime(1000);
     });
-    expect(timeElement).toHaveTextContent('12:00:02 a. m.');
+    expect(timeElement).toHaveTextContent('12:00:02 AM');
     act(() => {
       jest.advanceTimersByTime(1000);
     });
-    expect(timeElement).toHaveTextContent('12:00:02 a. m.');
+    expect(timeElement).toHaveTextContent('12:00:02 AM');
     act(() => {
       jest.advanceTimersByTime(1000);
     });
-    expect(timeElement).toHaveTextContent('12:00:04 a. m.');
+    expect(timeElement).toHaveTextContent('12:00:04 AM');
   });
 });

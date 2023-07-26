@@ -11,7 +11,7 @@ exports[`Clock component should render as expected 1`] = `
       <p
         data-testid="time"
       >
-        12:00:00 a. m.
+        12:00:00 AM
       </p>
     </div>
   </div>
