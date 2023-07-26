@@ -20,7 +20,7 @@ const Quote = () => {
     fetchMathQuoteList();
   }, [mathQuoteList]);
 
-  if (!mathQuoteList || !index) return null;
+  if (!mathQuoteList || index === null) return null;
 
   const { quotes } = mathQuoteList;
   const { quote, author } = quotes[index];
@@ -35,10 +35,10 @@ const Quote = () => {
 
   return (
     <div key={index} className="text-white col-9">
-      <p className="lead fs-2">
+      <p className="lead fs-2 min-vh-26">
         {quote} - {author}
       </p>
-      <button type="button" className="btn btn-primary" onClick={() => rollIndex()}>
+      <button type="button" className="btn btn-primary" onClick={rollIndex}>
         Get another one
       </button>
     </div>

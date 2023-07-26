@@ -30,6 +30,10 @@
   margin: 0 10px;
 }
 
+.min-vh-26 {
+  min-height: 26vh;
+}
+
 @media screen and (max-width: 768px) {
   #navbarNav {
     height: 100vh;
