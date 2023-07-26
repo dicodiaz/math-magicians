@@ -7,7 +7,9 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite build & vite preview",
-    "test": "jest --watchAll"
+    "test": "jest --watchAll",
+    "eslint": "npx eslint \"**/*.{js,jsx}\"",
+    "stylelint": "npx stylelint \"**/*.{css,scss}\""
   },
   "dependencies": {
     "@popperjs/core": "^2.11.6",
