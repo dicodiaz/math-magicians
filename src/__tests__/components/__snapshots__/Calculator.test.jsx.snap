@@ -1,15 +1,15 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
 
 exports[`Calculator component should render as expected 1`] = `
 <div>
   <div
-    class="col-md-9"
+    class="col-md-9 pt-5"
   >
     <div
-      class="row mx-0 row-cols-4 text-center"
+      class="row mx-0 g-0 row-cols-4 text-center"
     >
       <div
-        class="bg-custom1 text-white text-end col-12 py-4 fs-5"
+        class="bg-custom1 text-white text-end col-12 p-4 fs-5"
         data-testid="screen"
       >
         0

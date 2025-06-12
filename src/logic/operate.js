@@ -17,6 +17,7 @@ const operate = (numberOne, numberTwo, operation) => {
     case '/':
       try {
         return one.div(two).toString();
+        // eslint-disable-next-line no-unused-vars
       } catch (err) {
         return "Can't divide by 0";
       }
