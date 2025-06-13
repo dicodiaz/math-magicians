@@ -19,10 +19,9 @@ const Calculator = () => {
           {operation}
           {next}
         </div>
-        {buttons.map((button) => {
-          const { id, text, type } = button;
-          return <Button key={id} text={text} type={type} onClick={handleClick} />;
-        })}
+        {buttons.map(({ id, text, type }) => (
+          <Button key={id} text={text} type={type} onClick={handleClick} />
+        ))}
       </div>
     </div>
   );

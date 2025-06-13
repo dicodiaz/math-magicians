@@ -1,9 +1,9 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
 
 exports[`Header component should render as expected 1`] = `
 <div>
   <nav
-    class="navbar navbar-expand-md navbar-light bg-secondary fixed-top"
+    class="navbar navbar-expand-md navbar-dark bg-secondary fixed-top container-fluid"
   >
     <div
       class="container-fluid"
@@ -22,62 +22,51 @@ exports[`Header component should render as expected 1`] = `
         data-bs-toggle="collapse"
         type="button"
       >
-        <svg
-          fill="currentColor"
-          height="1em"
-          stroke="currentColor"
-          stroke-width="0"
-          style="color: white; font-size: 25px;"
-          viewBox="0 0 1024 1024"
-          width="1em"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <path
-            d="M904 160H120c-4.4 0-8 3.6-8 8v64c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-64c0-4.4-3.6-8-8-8zm0 624H120c-4.4 0-8 3.6-8 8v64c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-64c0-4.4-3.6-8-8-8zm0-312H120c-4.4 0-8 3.6-8 8v64c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-64c0-4.4-3.6-8-8-8z"
-          />
-        </svg>
+        <span
+          class="navbar-toggler-icon"
+        />
       </button>
       <div
         class="collapse navbar-collapse"
         id="navbarNav"
       >
-        <ul
+        <div
           class="navbar-nav ms-auto"
         >
-          <li
-            class="nav-item"
+          <a
+            class="nav-item nav-link active"
+            href="/"
           >
-            <a
-              href="/"
+            <div
+              data-bs-target=".navbar-collapse.show"
+              data-bs-toggle="collapse"
             >
               Home
-            </a>
-          </li>
-          <li
-            class="v-line d-none d-md-block"
-          />
-          <li
-            class="nav-item"
+            </div>
+          </a>
+          <a
+            class="nav-item nav-link"
+            href="/calculator"
           >
-            <a
-              href="/calculate"
+            <div
+              data-bs-target=".navbar-collapse.show"
+              data-bs-toggle="collapse"
             >
               Calculator
-            </a>
-          </li>
-          <li
-            class="v-line d-none d-md-block"
-          />
-          <li
-            class="nav-item"
+            </div>
+          </a>
+          <a
+            class="nav-item nav-link"
+            href="/math-quotes"
           >
-            <a
-              href="/quote"
+            <div
+              data-bs-target=".navbar-collapse.show"
+              data-bs-toggle="collapse"
             >
-              Quote
-            </a>
-          </li>
-        </ul>
+              Math Quotes
+            </div>
+          </a>
+        </div>
       </div>
     </div>
   </nav>

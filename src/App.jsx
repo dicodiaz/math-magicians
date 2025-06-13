@@ -3,7 +3,7 @@ import './App.css';
 import Header from './components/Header';
 import Calculate from './pages/Calculate';
 import Home from './pages/Home';
-import Quote from './pages/Quote';
+import MathQuotes from './pages/MathQuotes';
 
 const App = () => (
   <>
@@ -13,8 +13,8 @@ const App = () => (
         <div className="row mx-0 g-0 justify-content-center">
           <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="calculate" element={<Calculate />} />
-            <Route path="quote" element={<Quote />} />
+            <Route path="calculator" element={<Calculate />} />
+            <Route path="math-quotes" element={<MathQuotes />} />
             <Route path="*" element={<Navigate to="/" />} />
           </Routes>
         </div>
