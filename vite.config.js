@@ -2,6 +2,7 @@
 import federation from '@originjs/vite-plugin-federation';
 import react from '@vitejs/plugin-react';
 import { defineConfig } from 'vite';
+import cssInjectedByJsPlugin from 'vite-plugin-css-injected-by-js';
 
 // https://vitejs.dev/config/
 export default defineConfig({
@@ -13,8 +14,9 @@ export default defineConfig({
       exposes: {
         './Calculator': './src/components/Calculator',
       },
-      shared: ['react', 'react-dom'],
+      shared: ['react', 'react-dom', 'bootstrap'],
     }),
+    cssInjectedByJsPlugin(),
   ],
   esbuild: {
     supported: {
@@ -30,5 +32,8 @@ export default defineConfig({
     headers: {
       'Access-Control-Allow-Origin': '*',
     },
+  },
+  build: {
+    cssCodeSplit: false, // required
   },
 });
