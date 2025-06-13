@@ -7,6 +7,8 @@
 - Make simple calculations.
 - Read a random math-related quote.
 
+It exposes the Calculator component for any other project to consume using Module Federation.
+
 This application is built with React and Bootstrap.
 
 ## Mobile
@@ -21,6 +23,7 @@ This application is built with React and Bootstrap.
 
 - React
 - Bootstrap
+- Module Federation
 - VSCode
 - Gitflow & GitHub
 
@@ -42,9 +45,51 @@ To get this project up and running, follow these simple steps:
 - Any modern web browser.
 - Any source-code editor (VSCode recommended).
 
-### Setup
+### Consume the Calculator
 
-- Follow the steps described before.
+To consume the Calculator component from a host Vite app, follow these simple steps:
+
+1. Install @originjs/vite-plugin-federation as a dev dependency.
+
+```cli
+pnpm i -D @originjs/vite-plugin-federation
+```
+
+2. Configure the remote in your `vite.config.ts` file.
+
+```js
+// vite.config.js
+
+import federation from '@originjs/vite-plugin-federation';
+
+export default defineConfig({
+  // ...
+  plugins: [
+    // ...
+    federation({
+      name: 'your-app-name',
+      remotes: {
+        mathMagicians: 'https://math-magicians.dicodiaz.com.co/assets/remoteEntry.js',
+      },
+      shared: ['react', 'react-dom', 'bootstrap'],
+    }),
+    // ...
+  ],
+  // ...
+});
+```
+
+3. Consume the component in your application
+
+```js
+// App.jsx
+
+import Calculator from 'mathMagicians/Calculator';
+
+const App = () => {
+  return <Calculator />;
+};
+```
 
 ## Authors
 
@@ -52,7 +97,7 @@ To get this project up and running, follow these simple steps:
 
 - GitHub: [@dicodiaz](https://github.com/dicodiaz)
 - LinkedIn: [Dico Diaz Dussan](https://www.linkedin.com/in/dico-diaz-dussan/)
-- Portfolio: [dicodiaz.com.co](https://portfolio.dicodiaz.com.co)
+- Portfolio: [portfolio.dicodiaz.com.co](https://portfolio.dicodiaz.com.co)
 
 ## 🤝 Contributing
 
