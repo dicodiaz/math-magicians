@@ -18,13 +18,17 @@ export default defineConfig({
   ],
   esbuild: {
     supported: {
-      'top-level-await': true, // browsers can handle top-level-await features
+      'top-level-await': true,
     },
   },
   server: {
     cors: {
-      origin: 'http://localhost:5173',
-      methods: ['GET'],
+      origin: '*',
+      methods: ['GET', 'OPTIONS'],
+      allowedHeaders: ['Content-Type', 'Authorization'],
+    },
+    headers: {
+      'Access-Control-Allow-Origin': '*',
     },
   },
 });
