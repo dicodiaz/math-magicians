@@ -21,4 +21,10 @@ export default defineConfig({
       'top-level-await': true, // browsers can handle top-level-await features
     },
   },
+  server: {
+    cors: {
+      origin: 'http://localhost:5173',
+      methods: ['GET'],
+    },
+  },
 });
